@@ -1,0 +1,42 @@
+.points{
+    border-radius: 5px;
+    /* background-color: #fbfbfb; */
+    width: 258px;
+    padding: 8px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.container-right{
+    border-radius: 5px;
+	background-color: #fbfbfb;
+	width: 258px;
+	padding: 32px;
+	display: flex;
+}
+.graph-icon{
+    height: 60px;
+	width: 60px;
+	border-radius: 6px;
+	/* background-color: ${(props) => props.color}; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 24px;
+}
+.info-icon{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.info-icon h5{
+    font-size: 20px;
+    color: #282d30;
+    margin:0px;
+}
+.info-icon p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #74798c;
+}

@@ -1,0 +1,39 @@
+.container-body{
+    max-height: 1000px;
+}
+.section-header h1 {
+    font-weight: 500;
+    font-size: 48px;
+
+}
+
+.section-header span {
+    color: #ff0000;
+}
+
+.section-header p {
+    font-size: 18px;
+}
+
+.container-charts {
+    display: flex;
+
+}
+
+.left-chart {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 835px;
+}
+
+.right-chart {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-smallCharts{
+    display: flex;
+	justify-content: space-between;
+    margin-top: 2rem;
+}

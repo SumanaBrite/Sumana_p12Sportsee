@@ -1,0 +1,37 @@
+.container-activityChart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dots {
+    display: flex;
+}
+
+.dot-black {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 1.5rem;
+}
+
+.dot-red {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 1.5rem;
+
+}
+
+.kilo, .calories {
+    display: flex;
+}
+
+.recharts-default-legend {
+    display: none;
+}
+
+.recharts-cartesian-axis-line {
+    stroke: #DEDEDE;
+}

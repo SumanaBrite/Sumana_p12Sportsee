@@ -1,0 +1,9 @@
+.container-dashboard{
+    display: flex;
+}
+.section-graph{
+    margin-left: 1rem;
+}
+.container-verticalBar{
+    background-color: black;
+}

@@ -1,0 +1,10 @@
+.tooltipActivity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 39px;
+    height: 63px;
+    font-size: 9px;
+    background: #e60000;
+    color: #fff;
+}

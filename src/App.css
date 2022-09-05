@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #020203;
+  --secondary-color: #e60000;
+  --white-color: #fff;
+}
+
+body {
+  display: flex;
+}
+
+.root {
+  width: 1440px;
+}
